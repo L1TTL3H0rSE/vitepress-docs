@@ -2,21 +2,22 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vitepress-docs/',
   title: "KolyaLis Docs",
   description: "Showcase by KolyaLis",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Главная', link: '/' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Примеры документации',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Арт аксессориз Api', link: '/art-accessories' },
+          { text: 'Api враппер', link: '/' },
+          { text: 'Компонент и composable', link: '/ui-kit' }
         ]
       }
     ],
