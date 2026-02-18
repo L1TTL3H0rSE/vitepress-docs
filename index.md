@@ -22,6 +22,6 @@ features:
     link: /markdown-examples
   - title: Документация для компонента и composable
     details: Пример документации для самописного компонента Slider.vue и composable useDraggable
-    link: /markdown-examples
+    link: /ui-kit
 ---
 

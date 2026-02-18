@@ -130,6 +130,11 @@ async function handleTrackClick(_event: MouseEvent | TouchEvent) {
       background-color: var(--disabled-color);
       outline: 2px solid var(--disabled-color);
     }
+    .slider__thumb {
+      &::after {
+        background: var(--disabled-color);
+      }
+    }
   }
 
   &__track {
@@ -162,6 +167,22 @@ async function handleTrackClick(_event: MouseEvent | TouchEvent) {
     pointer-events: auto;
     transition: transform 0.1s ease-in-out;
     transform: translateX(-50%);
+    z-index: 2;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: white;
+      border-radius: 50%;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--primary-main-color);
+      border-radius: 50%;
+    }
 
     .slider:not(.disabled):hover &,
     .slider.dragging & {
