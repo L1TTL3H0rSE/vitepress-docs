@@ -18,6 +18,7 @@ logs
 .fleet
 .idea
 .vitepress/cache
+.vitepress/dist
 
 # Local env files
 .env
