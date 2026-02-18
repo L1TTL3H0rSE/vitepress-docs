@@ -21,7 +21,7 @@ features:
     details: Пример документации для самописного враппера для Directus CMS
     link: /markdown-examples
   - title: Документация для компонента и composable
-    details: Пример документации для самописного компонента и компосабла
+    details: Пример документации для самописного компонента Slider.vue и composable useDraggable
     link: /markdown-examples
 ---
 

@@ -62,7 +62,7 @@
 | :--- | :--- | :--- |
 | `avg_raiting_from` | `Number` | Средний рейтинг товара от. |
 | `avg_raiting_to` | `Number` | Средний рейтинг товара до. |
-| `c_aprooved_feedbacks_from`| `Number` | Количество подтвержденных отзывов (от). |
+| `c_aprooved_feedbacks_from` | `Number` | Количество подтвержденных отзывов (от). |
 | `c_aprooved_feedbacks_to` | `Number` | Количество подтвержденных отзывов (до). |
 | `owner_rating_from` | `Number` | Минимальный рейтинг продавца. |
 
@@ -75,7 +75,7 @@
 | `only_featured` | Только рекомендуемые товары. |
 | `only_new` | Только новинки. |
 | `show_whishlist` | Только товары из вишлиста пользователя. |
-| `subscription_exists`| Фильтрация по наличию подписки у пользователя. |
+| `subscription_exists` | Фильтрация по наличию подписки у пользователя. |
 
 ### Сортировка (`ordering`)
 
@@ -87,7 +87,7 @@
 | `avg_raiting` / `-avg_raiting` | По среднему рейтингу. |
 | `real_price_usd` / `-real_price_usd` | По реальной цене в USD. |
 | `flag_is_new` / `-flag_is_new` | По новизне. |
-| `flag_is_good_deal` / `-flag_is_good_deal`| По выгодности предложения. |
+| `flag_is_good_deal` / `-flag_is_good_deal` | По выгодности предложения. |
 
 ### Динамические варианты (Variants)
 
